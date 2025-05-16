@@ -2,7 +2,7 @@
   "info": {
     "name": "Projeto LuizaLabs",
     "_postman_id": "c1d2e3f4-5678-9101-1121-314151617181",
-    "description": "Cole\u00e7\u00e3o de requisi\u00e7\u00f5es para a API do Projeto LuizaLabs",
+    "description": "Coleção de requisições para a API do Projeto LuizaLabs",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
@@ -24,15 +24,9 @@
         "url": {
           "raw": "http://localhost:8000/api/orders/file",
           "protocol": "http",
-          "host": [
-            "localhost"
-          ],
+          "host": ["localhost"],
           "port": "8000",
-          "path": [
-            "api",
-            "orders",
-            "file"
-          ]
+          "path": ["api", "orders", "file"]
         }
       }
     },
@@ -44,28 +38,13 @@
         "url": {
           "raw": "http://localhost:8000/api/orders?orderId=123&startDate=2023-01-01&endDate=2023-12-31",
           "protocol": "http",
-          "host": [
-            "localhost"
-          ],
+          "host": ["localhost"],
           "port": "8000",
-          "path": [
-            "api",
-            "orders",
-            "file"
-          ],
+          "path": ["api", "orders"],
           "query": [
-            {
-              "key": "orderId",
-              "value": "123"
-            },
-            {
-              "key": "startDate",
-              "value": "2023-01-01"
-            },
-            {
-              "key": "endDate",
-              "value": "2023-12-31"
-            }
+            { "key": "orderId", "value": "123" },
+            { "key": "startDate", "value": "2023-01-01" },
+            { "key": "endDate", "value": "2023-12-31" }
           ]
         }
       }
