@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use("/api/sales", orderRoutes);
+app.use("/api/orders", orderRoutes);
 app.use(ErrorHandler.handle);
 
 mongoConnect()
