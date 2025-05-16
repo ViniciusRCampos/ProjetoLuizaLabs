@@ -1,13 +1,15 @@
-import express from "express";
+import ErrorHandler from "./middlewares/ErrorHandler";
 import orderRoutes from "./routes/order.routes";
 import mongoConnect from "./configs/database";
 import { config } from "./configs";
+import express from "express";
 
 const app = express();
 
 app.use(express.json());
 
 app.use("/api/sales", orderRoutes);
+app.use(ErrorHandler.handle);
 
 mongoConnect()
   .then(() => {
