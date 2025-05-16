@@ -36,15 +36,15 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:8000/api/orders?orderId=123&startDate=2023-01-01&endDate=2023-12-31",
+          "raw": "http://localhost:8000/api/orders?orderId=123&startDate=2021-06-01&endDate=2021-06-10",
           "protocol": "http",
           "host": ["localhost"],
           "port": "8000",
           "path": ["api", "orders"],
           "query": [
             { "key": "orderId", "value": "123" },
-            { "key": "startDate", "value": "2023-01-01" },
-            { "key": "endDate", "value": "2023-12-31" }
+            { "key": "startDate", "value": "2021-06-01" },
+            { "key": "endDate", "value": "2021-06-10" }
           ]
         }
       }
